@@ -1,0 +1,1 @@
+This project is essentially concentrating of the compiling process and writing of my very first C programming source codes.
