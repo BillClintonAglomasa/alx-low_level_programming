@@ -3,10 +3,11 @@
 /**
  * main - Entry point
  *
- * Return: Always return 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
+	/* declarations */
 	char a;
 	int b;
 	long int c;
