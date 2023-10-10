@@ -1,21 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point of program
  *
  * Return: Always 0 (Success)
  *
- * Description: Prints the alphabets from a to z
+ * Description: This program prints the alphabet in lowercase except q and e
  */
 int main(void)
 {
-	/* Declaring variable */
-	char c;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 		c++;
 	}
 
