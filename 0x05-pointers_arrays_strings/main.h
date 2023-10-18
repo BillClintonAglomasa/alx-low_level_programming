@@ -10,5 +10,6 @@ int print_sign(int n);
 int _abs(int num);
 int print_last_digit(int num);
 void reset_to_98(int *num);
+void swap_int(int *a, int *b);
 
 #endif
