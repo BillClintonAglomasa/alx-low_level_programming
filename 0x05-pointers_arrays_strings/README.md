@@ -1,0 +1,1 @@
+This repository is created to push learnings concentrated on C programming language to github.
