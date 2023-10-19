@@ -3,11 +3,11 @@
 /**
  * cap_string - Capitalizes every word of a string
  *
- * @s: String to capitalize every word
+ * @s: Pointer that returns a string to capitalize every word
  *
  * Return: Returns the modified string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	/* Declarations */
 	int i;
