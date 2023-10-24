@@ -3,11 +3,11 @@
 /**
  * _memset - Fills memory with a constant byte
  *
- * @s: A memory area to be filled
- * @b: A char to copy
+ * @s: Memory area to be filled
+ * @b: Char to copy
  * @n: Number of times to copy b
  *
- * Return: A pointer ot the memory area s
+ * Return: A pointer that returns the resulting string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -15,7 +15,9 @@ char *_memset(char *s, char b, unsigned int n)
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
+	{
 		s[i] = b;
+	}
 
 	return (s);
 }
