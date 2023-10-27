@@ -25,18 +25,14 @@ A C function that prints the chessboard.
 8. 8-print_diagsums.c
 A C function that prints the sum of the two diagonals of a square matrix of integers.
 
-9. 100-rot13.c
-A C function that encodes a string using rot13.
+9. 100-set_string.c
+A C function that sets the value of a pointer to a char.
 
-10. 101-print_number.c
-A C function that prints an integer.
+10. 101-crackme_password.c
+A file that contains password to the crackme executable.
 
-11. 102-magic.c
-A C code in which I add a line of code so that the progrma prints a[2] = 98,
-followed by a newline.
+12. main.h
+A header file with the function prototype.
 
-12. 103-infinite_add.c
-A C function that adds two numbers.
-
-13. 104-print_buffer.c
-A C function that prints a buffer.
+13. *-main.c
+C files containing codes that run the individual functions.
