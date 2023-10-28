@@ -59,19 +59,31 @@ int _atoi(char *s)
  */
 int main(int argc, char **argv)
 {
-	int num1, num2, result;
+	int i, result;
 
-	if (argc == 3)
+	if (argc == 1)
 	{
-		num1 = _atoi(argv[1]);
-		num2 = _atoi(argv[2]);
-		result = num1 * num2;
-		printf("%d\n", result);
+		return (0);
 	}
-	else
+
+	else (argc > 1)
 	{
-		printf("Error\n");
-		return (1);
+		result = 0;
+		i = 1;
+		while (i < argc)
+		{
+			if (_atoi(argv[i]) >= 0)
+		     	{
+				result += arg[i];
+				i++;
+		       	}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		print("%d\n", result)
 	}
 
 	return (0);
