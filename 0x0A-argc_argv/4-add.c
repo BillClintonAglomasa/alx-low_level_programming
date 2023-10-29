@@ -59,32 +59,32 @@ int _atoi(char *s)
  */
 int main(int argc, char **argv)
 {
-	int i, result;
+	int i, j, k, num, sum;
 
-	if (argc == 1)
-	{
-		return (0);
-	}
+	sum = 0;
 
-	else (argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		result = 0;
-		i = 1;
-		while (i < argc)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (_atoi(argv[i]) >= 0)
-		     	{
-				result += arg[i];
-				i++;
-		       	}
-			else
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				printf("Error\n");
+				puts("Error");
 				return (1);
 			}
 		}
-		print("%d\n", result)
 	}
 
+	for (k = 1; k < argc; k++)
+	{
+		num = _atoi(argv[k]);
+
+		if (num > 0)
+		{
+			sum += num;
+		}
+	}
+
+	printf("%d\n", sum);
 	return (0);
 }
