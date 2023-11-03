@@ -1,34 +1,25 @@
-This project (0x08 - Recursion) concentrates on using recursion to write simple recursion formulas .
+This project (0x0A. C - argc, argv) concentrates on using arguments passed to a program.
 
-1. 0-puts_recursion.c
-This is a C function that prints a string, followed by a line.
+1. 0-whatsmyname.c
+This is a C function that that prints its name, followed by a new line.
 
-2. 1-print_rev_recursion.c
-This is a C function that that prints a string in reverse.
+2. 1-args.c
+This is a C function that prints the number of arguments passed to it.
 
-3. 2-strlen.c
-This is a C function that returns the length of a string.
+3. 2-args.c
+This is a C function that prints all arguments it receives.
 
-4. 3-factorial.c
-This is a C function that returns the factorial of a given number.
+4. 3-mul.c
+This is a C function that multiplies two numbers.
 
-5. 4-pow_recursion.c
-This is a C function that returns the value of x raised to the power of y.
+5. 4-add.c
+This is a C function that adds positive numbers.
 
-6. 5-sqrt_recursion.c
-A C function that returns the natural square root of a number.
+6. 100-.c
+A C function that prints the minimum number of coins to make change for an amount of money.
 
-7. 6-is_prime_number.c
-A C function that returns 1 if the input integer is a prime number, otherwise return 0.
-
-8. 100-is_palindrome.c
-A C function that returns i if a string is a palindrome and 0 if not.
-
-10. 101-crackme_password.c
-A C function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
-
-12. main.h
+7. main.h
 A header file with the function prototype.
 
-13. *-main.c
+8. *-main.c
 C files (executable).
