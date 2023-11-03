@@ -12,7 +12,7 @@
  * Return: Returns a pointer ot the array or NULL if it fails.
  */
 
-char * create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *m;
@@ -22,14 +22,13 @@ char * create_array(unsigned int size, char c)
 
 	m = malloc(sizeof(*m) * size);
 
+	if (m == NULL)
+		return (NULL);
+
 	for (i = 0; i < size; i++)
 	{
 		m[i] = c;
 	}
 
-	if (m == NULL)
-		return (NULL);
-
-	else
-		return (m);
+	return (m);
 }
