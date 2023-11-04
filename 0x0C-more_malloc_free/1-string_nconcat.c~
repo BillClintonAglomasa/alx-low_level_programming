@@ -1,0 +1,44 @@
+#include "main.h"
+
+/**
+ * string_nconcat - Concatenates two strings using a number of bytes.
+ *
+ * @s1: The first string
+ * @s2: The second string
+ * @n: The unsigned integer
+ *
+ * Return: Return NULL if function fails.
+ */
+
+char *string_nconcat(char 8s1, char *s2, unsigned int n)
+{
+	unsigned int length = n;
+	unsigned int i;
+	char *str_concat;
+
+	if (s1 ==  NULL)
+		s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+
+	for (i = 0; s1[i]; i++)
+		length++;
+
+	str_concat = malloc(sizeof(*str_concat) * (len + 1));
+
+	if (str_concat == NULL)
+		return (NULL);
+
+	length = 0;
+
+	for (i = 0; s1[i]; i++)
+		str_concat[length++] = s1[i];
+
+	for (i = 0; s2[i] && i < n; i++)
+		str_concat[length++] = s2[i];
+
+	str_concat(length) = '\0';
+
+	return (str_concat);
+}
