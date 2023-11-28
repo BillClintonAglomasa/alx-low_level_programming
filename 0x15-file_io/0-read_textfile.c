@@ -32,6 +32,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 
 	free(heap_memory);
-	
 	return (bytes_written);
 }
